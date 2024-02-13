@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export const Card = () => {
   return (
     <section className="blog">
-      <div className="container gried3">
+      <div className="container grid3">
         {blog.map((item) => (
           <div className="box boxItems" key={item.id}>
             <div className="img">
