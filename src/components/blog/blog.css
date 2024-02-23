@@ -17,4 +17,37 @@
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.blog .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.blog .tag a {
+  color: blue;
+  opacity: 0.7;
+}
+.blog .tag {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.blog h3 {
+  font-weight: 500;
+}
+.blog p {
+  color: #999;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 17px;
+  line-height: 25px;
+}
+.blog .date {
+  display: flex;
+  align-items: center;
+}
+.blog .date label {
+  display: block;
+  margin-right: 20px;
 }

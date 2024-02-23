@@ -106,3 +106,11 @@ form input {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
 }
+
+.link {
+  color: #000;
+}
+
+.container {
+  max-width: 95%;
+}

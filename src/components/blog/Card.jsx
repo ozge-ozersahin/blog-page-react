@@ -22,7 +22,7 @@ export const Card = () => {
                 <AiOutlineTags className="icons"></AiOutlineTags>
                 <a href="/">#{item.category}</a>
               </div>
-              <Link to={`/detail/${item.id}`} className="link">
+              <Link to={`/details/${item.id}`} className="link">
                 <h3>{item.title}</h3>
               </Link>
               <p>{item.desc.slice(0, 180)}...</p>
