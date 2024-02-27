@@ -24,6 +24,10 @@ export const Details = () => {
               <img src={blogs.cover} alt="" />
             </div>
           </div>
+          <div>
+            <h1>{blogs.title}</h1>
+            <p>{blogs.desc}</p>
+          </div>
         </section>
       ) : null}
     </>

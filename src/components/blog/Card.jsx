@@ -14,9 +14,12 @@ export const Card = () => {
       <div className="container grid3">
         {blog.map((item) => (
           <div className="box boxItems" key={item.id}>
-            <div className="img">
-              <img src={item.cover} alt="" />
-            </div>
+            <Link to={`/details/${item.id}`} className="link">
+              <h3>{item.title}</h3>
+              <div className="img">
+                <img src={item.cover} alt="" />
+              </div>
+            </Link>
             <div className="details">
               <div className="tag">
                 <AiOutlineTags className="icons"></AiOutlineTags>
